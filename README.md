@@ -1,6 +1,6 @@
 # BD Entreprise Télécommunication
 
-Il s'agit d'un projet de base de donnée de l'UE INF403 pour le parcours Informatiqe de déuxième année à l'université Grenoble Alpes.
+Il s'agit d'un projet de base de donnée de l'UE INF403 pour le parcours Informatique de deuxième année à l'Université Grenoble Alpes.
 
 
 ## Aperçu
