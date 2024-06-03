@@ -38,16 +38,16 @@ Chaque intervention d’un technicien à une réparation a pour détail le prix,
   /*(n, m, es, t, p, em, c) ∈ Appareils ⟺ l’appareil identifié par son numéro n, de modèle m, a été acheté neuf si ‘es’ est vrai, reconditionné sinon, par le client de numéro de téléphone c. Son type est t, son prix p et l’empreinte carbone de l’achat est em.*/
   
 - **Techniciens** (num_technicien, nom_technicien, prenom_technicien, debut_contrat_technicien)
-  /* (nu, no, p, d) ∈  Techniciens ⟺ le technicien numéro nu de nom no et de prénom p, a commencé son contrat de travaille chez l’entreprise à la date d*/
+  **/* (nu, no, p, d) ∈  Techniciens ⟺ le technicien numéro nu de nom no et de prénom p, a commencé son contrat de travaille chez l’entreprise à la date d*/**
   
 - **Interventions** (num_reparation, num_technicien, prix_intervention, emp_carbone_intervention, commentaire_intervention)
-  /* (r, t, p, e, c) ∈ Interventions ⟺ l’intervention qui fait parti de la réparation numéro r, réalisée par le technicien numéro t, a pour prix p, et pour empreinte carbone e. Le technicien laisse un commentaire c pour expliquer l’intervention*/
+  **/* (r, t, p, e, c) ∈ Interventions ⟺ l’intervention qui fait parti de la réparation numéro r, réalisée par le technicien numéro t, a pour prix p, et pour empreinte carbone e. Le technicien laisse un commentaire c pour expliquer l’intervention*/**
   
 - **Reparations_base** (num_reparation, date_reparation, num_appareil)
-  /* (n, d, a) ∈ Reparations_base ⟺ la réparation n de l’appareil de numéro a, s’est effectué à la date d.*/
+  **/* (n, d, a) ∈ Reparations_base ⟺ la réparation n de l’appareil de numéro a, s’est effectué à la date d.*/**
   
 - (View) **Reparations** (num_reparation, date_reparation, num_appareil, prix_reparation, emp_carbone_reparation)
-  /* (n, d, a, p, e) ∈ Reparations ⟺ la réparation n de l’appareil de numéro a, s’est effectué à la date d, elle coûte p euros, et elle a pour empreinte carbone e.*/
+  **/* (n, d, a, p, e) ∈ Reparations ⟺ la réparation n de l’appareil de numéro a, s’est effectué à la date d, elle coûte p euros, et elle a pour empreinte carbone e.*/**
 
 
 ## Installation de l'environnement
